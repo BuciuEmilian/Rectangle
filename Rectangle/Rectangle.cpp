@@ -57,7 +57,7 @@ int countRectangles(vector<pair<int, int>>& points) {
 
     int count = 0;
     int n = points.size();
-    // avoid redundance
+    // avoid redundancies
     for (int i = 0; i < n - 1; i++) {
         for (int j = i + 1; j < n; j++) {
             int x1 = points[i].first;
